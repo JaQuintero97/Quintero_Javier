@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header>
+        <section id="parte1">
+            <img src="img/Rectangle.png" alt="logo">
+            <h1>Nombre Tienda</h1>
+        </section>
+        <section id="parte2">
+            <nav>
+                <ul>
+                    <li>Contacto</li>
+                    <li>Registrarme</li>
+                    <li>Ingresar</li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+
+    <main>
+        <section>
+            <form action="prueba.php" method="post">
+                <h2>Añadí tu super</h2>
+                <p>Agregá tu personaje favorito completando las opciones</p>
+                <div class="row">
+                    <div class="col">
+                        <label for="nombre">* Nombre</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+                    <div class="col">    
+                        <label for="especie">* Especie</label>
+                        <input type="text" id="nombre" name="especie" required>
+                    </div>    
+                </div>
+                <div class="row">
+                 <div class="col">   
+                    <label for="date">Fecha</label>    
+                    <input type="date" name="fecha" id="fecha">
+                </div>
+                <div class="col"> 
+                    <label for="foto">Agregar Foto</label>
+                    <input type="file" name="foto" id="foto">
+                </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+
+                    </div>
+                    <div class="col">
+
+                    </div>
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
