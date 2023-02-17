@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Lista de Peliculas</title>
+    <script
+      crossorigin
+      src="https://unpkg.com/react@17/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"
+    ></script>
+  </head>
+
+  <body>
+    
+
+    <div id="root">
+      <h1>Lista de Peliculas</h1>
+    </div>   
+
+    <script type="text/javascript">
+
+      const lista = [
+        "Die Hard",
+        "Hot Fuzz",
+        "Kill Bill",
+        "John Wick",
+        "Shrek",
+        "Ted",
+        "The Godfather",
+        "Avengers",
+        "Amelie",
+        "The Dark Knight",
+        "Angry Men",
+        "Flashback",
+        "Luca",
+        "Cruella",
+        "Pulp Fiction",
+        "The Good, the Bad and the Ugly",
+        "Fight Club",
+        "Forrest Gump",
+        "Inception",
+        "Goodfellas",
+        "Life Is Beautiful",
+        "Spirited Away",
+        "Interstellar",
+        "The Pianist",
+        "etc"
+      ];
+      
+
+      const peliculas = () => {
+        const pelicula = lista.map((peli, index) => { 
+          return React.createElement('li', {key: index}, peli)
+        })
+
+        return React.createElement('ul', null, pelicula)
+      }
+
+      ReactDOM.render(
+        peliculas(),
+        document.getElementById('root')
+      )
+
+    </script>
+  </body>
+</html>
