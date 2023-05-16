@@ -14,6 +14,7 @@ class ProcesadorTest {
         System.out.println(resultado);
         //Entonces
         assertEquals(resultado,resultadoEsperado);
+        AssertTrue)
     }
     @Test
     public void procesarPagoDebitoNegativo(){
