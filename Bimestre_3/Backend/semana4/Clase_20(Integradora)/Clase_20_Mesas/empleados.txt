@@ -1,0 +1,4 @@
+Jorgito;Pereyra;12345;100.0
+Claudio;Nasser;150;200.0
+Ramon;Ramirez;456;300.0
+Rodolfo;Juarez;351;600.0
