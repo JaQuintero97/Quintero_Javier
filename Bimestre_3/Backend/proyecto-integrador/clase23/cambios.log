@@ -1,0 +1,19 @@
+[2023-06-05 21:53:02] [ INFO ] [PacienteDAOH2:30] Iniciando la operacion de guardado de un Paciente
+[2023-06-05 21:53:20] [ INFO ] [PacienteDAOH2:30] Iniciando la operacion de guardado de un Paciente
+[2023-06-05 21:53:40] [ INFO ] [PacienteDAOH2:161] Inicializando la operación de actualización de datos
+[2023-06-05 21:55:17] [ INFO ] [PacienteDAOH2:30] Iniciando la operacion de guardado de un Paciente
+[2023-06-05 21:55:36] [ INFO ] [PacienteDAOH2:161] Inicializando la operación de actualización de datos
+[2023-06-05 21:56:20] [ INFO ] [PacienteDAOH2:161] Inicializando la operación de actualización de datos
+[2023-06-05 21:56:57] [ INFO ] [PacienteDAOH2:161] Inicializando la operación de actualización de datos
+[2023-06-08 03:33:24] [ INFO ] [PacienteDAOH2:30] Iniciando la operacion de guardado de un Paciente
+[2023-06-08 03:42:53] [ INFO ] [OdontologoDAOH2:23] Iniciando la operacion de guardado de un Odontologo
+[2023-06-08 03:47:06] [ INFO ] [OdontologoDAOH2:23] Iniciando la operacion de guardado de un Odontologo
+[2023-06-08 04:11:24] [ INFO ] [OdontologoDAOH2:81] Actualizando Odontologo
+[2023-06-08 04:13:42] [ INFO ] [OdontologoDAOH2:81] Actualizando Odontologo
+[2023-06-08 04:20:08] [ INFO ] [OdontologoDAOH2:116] Vamos a buscar todos los odontologos
+[2023-06-08 04:20:08] [ INFO ] [OdontologoDAOH2:138] Búsqueda finalizada
+[2023-06-08 04:21:21] [ INFO ] [OdontologoDAOH2:116] Vamos a buscar todos los odontologos
+[2023-06-08 04:21:22] [ INFO ] [OdontologoDAOH2:138] Búsqueda finalizada
+[2023-06-08 04:21:30] [ INFO ] [OdontologoDAOH2:25] Iniciando la operacion de guardado de un Odontologo
+[2023-06-08 04:21:36] [ INFO ] [OdontologoDAOH2:116] Vamos a buscar todos los odontologos
+[2023-06-08 04:21:36] [ INFO ] [OdontologoDAOH2:138] Búsqueda finalizada
