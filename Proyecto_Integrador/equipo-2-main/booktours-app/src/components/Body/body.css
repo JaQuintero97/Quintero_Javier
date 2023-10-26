@@ -1,0 +1,73 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.second-part {
+  margin-top: 150px; /* Ajusta el valor según cuánto desees moverlo hacia abajo */
+}
+*{
+  margin-top: 0%;
+}
+
+img{
+  width: 19rem;
+  border-radius: 1rem;
+}
+
+.slide-container {
+  margin-top: rem;
+  position: relative;
+}
+
+.image-title {
+  position: absolute;
+  bottom: 20px; /* Ajusta la posición vertical según tus necesidades */
+  left: 20px; /* Ajusta la posición horizontal según tus necesidades */
+  color: #fff; /* Cambia el color del texto */
+  font-size: 24px; /* Ajusta el tamaño de fuente según tus necesidades */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Agrega sombra al texto para mayor legibilidad */
+}
+
+
+
+.first-part {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background-image: url('./Images/searchBackground.jpeg'); /* Ruta a tu imagen de fondo */
+  background-size: cover; /* Ajusta el tamaño de la imagen para cubrir el contenedor */
+  background-position: center; /* Centra la imagen de fondo */
+}
+
+.first-part input {
+  border-radius: 2rem 0 0 2rem;
+  width: 600px; /* Ajusta el ancho deseado (menos largo) */
+  height: 60px; /* Ajusta la altura deseada (menos grueso) */
+  border: none;
+  background: #99B4BF;
+  font-size: 18px;
+  padding: 0 10px;
+  margin-top: 10rem;
+}
+
+.first-part input::placeholder {
+  color: #fff; /* Establece el color del marcador de posición en blanco o el color que desees */
+  font-weight: 300; /* Ajusta el valor de font-weight para hacer el texto del marcador de posición más delgado */
+
+}
+.search-button {
+  height: 60px; /* Ajusta la altura deseada (menos grueso) */
+  width: 120px;
+  border-radius: 0 2rem 2rem 0;
+  background: #243C58;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 10rem;
+
+}
+

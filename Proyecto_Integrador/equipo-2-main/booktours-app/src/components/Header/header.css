@@ -1,0 +1,65 @@
+/* header.css */
+
+/* Header container */
+header {
+  background-color: #243C58;
+  position: absolute;
+  top: 0;
+width: 100%;
+ }
+ 
+ /* Logo and slogan container */
+ header div {
+  display: inline-block;
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+  background-color: #243C58;
+  
+ }
+ 
+ /* Logo image */
+ header div img {
+  height: 50px;
+  vertical-align: middle;
+  background-color: #243C58;
+ }
+ 
+ /* Slogan text */
+ header div span {
+  color: #fff;
+  font-size: 16px;
+  vertical-align: middle;
+  background-color: #243C58;
+ }
+ 
+ /* Buttons container */
+ header nav {
+  display: flex;
+  margin-top: 20px;
+  background-color: #243C58;
+  vertical-align: middle;
+ }
+ 
+ /* Buttons */
+ header nav button {
+  color: white;
+/* padding: 10px 20px ;*/
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  cursor: pointer;
+  width: 170px;
+  height: 50px; 
+background: #D9B80B;
+vertical-align: middle;
+  border-radius: 9;
+  margin-right: 20px;
+   margin-bottom: 15px;
+ }
+ 
+ /* Change button color on hover */
+ header nav button:hover {
+  background-color: #45a049;
+ }
